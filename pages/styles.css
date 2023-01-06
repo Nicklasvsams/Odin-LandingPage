@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header, #hero, footer{
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FaF8;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-text, #hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+header {
+    justify-content: space-between;
+    padding: 1vh 15vw;
+}
+
+header>* {
+    width: 50%;
+}
+
+#headerlinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero {
+    display: flex;
+    padding: 5vh 15vw;
+    height: 25vh;
+}
+
+#hero-left>div{
+    padding: 1vh 0;
+}
+
+#hero-left>div>h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero>div {
+    width: 50%;
+}
+
+#hero-img{
+    display: flex;
+    justify-content: center;
+}
+
+#hero-img>img {
+    height: 100%;
+}
+
+#hero-button {
+    color: #E5E7EB;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding:10px 30px;
+    border-radius: 5px;
+}
+
+#info{
+    padding: 5vh 25vw;
+}
+
+#info>h4 {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+#info>* {
+    padding: 2vh 0;
+}
+
+#info-images>div>img{
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+#info-images>div>p{
+    margin: 0 1vw;
+}
+
+#info-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+#info-images>div {
+    width: 20%;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 10vh 25vw;
+}
+
+#quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#credit {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
+    width: fit-content;
+}
+
+#call-to-action {
+    display: flex;
+    margin: 10vh 15vw;
+    padding: 5vh 5vw;
+    background-color: #3882F6;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+#call-left>* {
+    color:#E5E7EB;
+}
+
+#call-to-action>div>button {
+    color: #E5E7EB;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB
+}
+
+footer {
+    justify-content: center;
+    padding: 5vh 0;
+}
+
+
+
